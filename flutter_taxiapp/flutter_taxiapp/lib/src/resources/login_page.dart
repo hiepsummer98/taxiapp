@@ -63,6 +63,8 @@ class _LoginPageState extends State<LoginPage> {
                         borderSide:
                             BorderSide(color: Color(0xffCED0D2), width: 1),
                         borderRadius: BorderRadius.all(Radius.circular(6)))),
+                autofocus: false,
+                obscureText: true,
               ),
               Container(
                 constraints: BoxConstraints.loose(

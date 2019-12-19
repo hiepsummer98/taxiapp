@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "565765516339",
+    "firebase_url": "https://taxiapp-7ddbb.firebaseio.com",
+    "project_id": "taxiapp-7ddbb",
+    "storage_bucket": "taxiapp-7ddbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565765516339:android:ace0fe35f4d1eddb1ec746",
+        "android_client_info": {
+          "package_name": "com.hiepsummer98.flutter_taxiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565765516339-597tk6adqoj7todlupuctonv9clqv9a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHX-Yam3yh41pnQNxKU1OMLFSXHZKbyz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565765516339-597tk6adqoj7todlupuctonv9clqv9a5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "565765516339-2r2hkaj9utrb33s152lkanahdt0jbjls.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hiepsummer98.fluttertaxiapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
