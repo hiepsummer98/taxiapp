@@ -32,7 +32,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
               Text(
-                "Login to continue using Icab",
+                "Login to continue using Icar",
                 style: TextStyle(fontSize: 16, color: Color(0xff606470)),
               ),
               Padding(
@@ -57,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
                     labelText: "Password",
                     prefixIcon: Container(
                       width: 50,
-                      child: Image.asset("ic_phone.png"),
+                      child: Image.asset("ic_lock.png"),
                     ),
                     border: OutlineInputBorder(
                         borderSide:
@@ -70,10 +70,10 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 alignment: AlignmentDirectional.centerEnd,
                 child: Padding(
-                  padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
+                  padding: const EdgeInsets.fromLTRB(0, 9, 0, 0),
                   child: Text(
                     "Forgot password?",
-                    style: TextStyle(fontSize: 16, color: Color(0xff606470)),
+                    style: TextStyle(fontSize: 16, color: Colors.black),
                   ),
                 ),
               ),
@@ -98,8 +98,8 @@ class _LoginPageState extends State<LoginPage> {
                 padding: const EdgeInsets.fromLTRB(0, 0, 0, 40),
                 child: RichText(
                   text: TextSpan(
-                      text: "New user?",
-                      style: TextStyle(color: Color(0xff606470), fontSize: 16),
+                      text: "New user? ",
+                      style: TextStyle(color: Colors.black, fontSize: 16),
                       children: <TextSpan>[
                         TextSpan(
                             recognizer: TapGestureRecognizer()
